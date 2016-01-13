@@ -1,0 +1,26 @@
+{
+  "name": "react-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daigof/react-search.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fortes Diego",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "browser-sync": "^2.11.0",
+    "eslint": "^1.10.3",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "webpack": "^1.12.11"
+  }
+}
