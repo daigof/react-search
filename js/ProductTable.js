@@ -1,7 +1,6 @@
 var ProductCategoryRow = require('./ProductCategoryRow');
 var ProductRow = require('./ProductRow');
-var React = require( 'react' );
-
+var React = require('react');
 var ProductTable = React.createClass({
   render: function() {
     var rows = [];
@@ -11,9 +10,19 @@ var ProductTable = React.createClass({
         return;
       }
       if (product.category !== lastCategory) {
-        rows.push(<ProductCategoryRow category={product.category} key={product.category} />);
+        rows.push(< ProductCategoryRow category = {
+          product.category
+        }
+        key = {
+          product.category
+        } />);
       }
-      rows.push(<ProductRow product={product} key={product.name} />);
+      rows.push(< ProductRow product = {
+        product
+      }
+      key = {
+        product.name
+      } />);
       lastCategory = product.category;
     }.bind(this));
     return (
